@@ -1,5 +1,14 @@
+import React from 'react'
+import Product from './Product'
+import Cart from './Cart'
+
 function App() {
-  return <div>RUNNING</div>
+  return (
+    <>
+      <Product />
+      <Cart />
+    </>
+  )
 }
 
 export default App
